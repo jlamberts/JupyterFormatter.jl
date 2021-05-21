@@ -1,0 +1,13 @@
+name = "NBFormat"
+uuid = "b8b539d8-55b4-4e60-a505-d7876c054e58"
+authors = ["Jonathan Lamberts jonathan@jonathanlamberts.com"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
