@@ -1,4 +1,4 @@
-using NBFormat
+using JupyterFormatter
 using IJulia
 using Test
 

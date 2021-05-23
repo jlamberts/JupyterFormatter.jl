@@ -1,4 +1,4 @@
-name = "NBFormat"
+name = "JupyterFormatter"
 uuid = "b8b539d8-55b4-4e60-a505-d7876c054e58"
 authors = ["Jonathan Lamberts jonathan@jonathanlamberts.com"]
 version = "0.1.0"

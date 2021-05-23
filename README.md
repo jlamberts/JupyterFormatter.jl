@@ -1,12 +1,12 @@
-# NBFormat
+# JupyterFormatter.jl
 
-A simple package to add [JuliaFormatter](https://github.com/domluna/JuliaFormatter.jl) autoformatting support to Jupyter notebooks running on [IJulia.](https://github.com/JuliaLang/IJulia.jl)  Inspired by my favorite Jupyter extension, [nb_black.](https://github.com/dnanhkhoa/nb_black)
+A simple package to add [JuliaFormatter](https://github.com/domluna/JuliaFormatter.jl) autoformatting support to Jupyter lab and notebooks running [IJulia.](https://github.com/JuliaLang/IJulia.jl)  Inspired by my favorite Jupyter extension, [nb_black.](https://github.com/dnanhkhoa/nb_black)
 
 ## Usage
 
 In your notebook,
 ```julia
-using NBFormat
+using JupyterFormatter
 enable_autoformat()
 ```
 

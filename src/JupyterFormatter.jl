@@ -1,4 +1,4 @@
-module NBFormat
+module JupyterFormatter
 
 using IJulia
 using JuliaFormatter
