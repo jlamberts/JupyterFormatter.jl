@@ -20,6 +20,7 @@ disable_autoformat()
 While this package works with both legacy Jupyter Notebooks and Jupyter Lab, it does have some issues in Jupyter Notebooks.  **On legacy notebooks only**, when a cell is formatted its output will be suppressed and it will lose its `In[]` and `Out[]`.  This will only happen if the cell is not already formatted properly.  
 
 For example, running this already-formatted cell will output as normal:
+
 ![Running With Formatted Cell](assets/preformatted_works_properly.png)
 
 However, running this unformatted cell will not print properly; running this cell
@@ -27,6 +28,7 @@ However, running this unformatted cell will not print properly; running this cel
 ![Running With Formatted Cell](assets/unformatted_will_suppress.png)
 
 Results in this formatted cell with no output
+
 ![Running With Formatted Cell](assets/unformatted_suppresses_output.png)
 
 It is recommended that you run in Jupyter Lab if possible, since it does not have this issue.
