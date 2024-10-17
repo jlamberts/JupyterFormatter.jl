@@ -1,7 +1,7 @@
 name = "JupyterFormatter"
 uuid = "b8b539d8-55b4-4e60-a505-d7876c054e58"
 authors = ["Jonathan Lamberts jonathan@jonathanlamberts.com"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
@@ -10,7 +10,7 @@ JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
 [compat]
 julia = "1"
 IJulia = "^1.23.2"
-JuliaFormatter = "^0.14.1"
+JuliaFormatter = "^0.14.1, 1"
 
 
 [extras]
